@@ -5,7 +5,7 @@
 This section is intended primarily for network administrators\. Your company’s network administrator usually is the person who selects the overall CIDR range for your AWS Control Tower organization\. The network administrator then allocates subnets from within that range for specific purposes\.
 
 Here are some essential facts about AWS Control Tower and VPCs:
-+ Each AWS Control Tower account is allowed one VPC\.
++ Each AWS Control Tower account is allowed one VPC per region selected\.
 + Every VPC has three Availability Zones\. By default, each Availability Zone contains one public subnet and two private subnets\. Therefore, each VPC contains nine subnets by default\.
 + Each of the nine subnets in your VPC is assigned a unique range, of equal size\.
 + Because the IP addresses do not overlap, the nine subnets within your VPC can communicate with each other in an unrestricted manner\.
